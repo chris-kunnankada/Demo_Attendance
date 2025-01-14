@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import os
-from openpyxl import load_workbook
-from openpyxl.utils.dataframe import dataframe_to_rows
 st.set_page_config(
 page_title="Training Attendance Form",
 )
